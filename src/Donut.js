@@ -183,7 +183,7 @@ export default class Donut extends Component {
                     </ReactTransitionGroup>
                     <g className="labels">
                         <text className="donut-title" textAnchor="middle"
-                            x={0} y={0} fontSize={'27.5'}>
+                            x={0} y={0} fontSize={'20'}>
                             {this.props.title}
                         </text>
                         <text className="donut-subtitle" textAnchor="middle"
