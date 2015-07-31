@@ -116,7 +116,11 @@ class Slice extends Component {
 
     render() {
         return (
-            <path className="slice" />
+            <path
+                onClick={this.props.onClick}
+                onMouseOver={this.props.onMouseOver}
+                onMouseLeave={this.props.onMouseLeave}
+                className="slice" />
         );
     }
 }
@@ -160,6 +164,9 @@ export default class Donut extends Component {
         slices = arcDescriptors.map((a, i) => {
             return (
                 <Slice className="slice" arcDescriptor={a}
+                    onMouseOver={this.props.onMouseOver.bind(null, a)}
+                    onMouseLeave={this.props.onMouseLeave.bind(null, a)}
+                    onClick={this.props.onClick.bind(null, a)}
                     key={i} idx={i}
                     color={this.props.segmentColor} tween={arcTween} />
             );
@@ -176,7 +183,7 @@ export default class Donut extends Component {
                     </ReactTransitionGroup>
                     <g className="labels">
                         <text className="donut-title" textAnchor="middle"
-                            x={0} y={0} fontSize={titleSize}>
+                            x={0} y={0} fontSize={'27.5'}>
                             {this.props.title}
                         </text>
                         <text className="donut-subtitle" textAnchor="middle"

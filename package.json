@@ -3,7 +3,7 @@
   "author": "Amey Sakhadeo",
   "version": "0.1.0",
   "description": "A set of d3 based visualization components built for React",
-  "main": "build/index.js",
+  "main": "src/index.js",
   "files": [
     "build",
     "package.json"
@@ -24,7 +24,9 @@
   "bugs": {
     "url": "https://github.com/ameyms/diffract/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "d3": "^3.5.6"
+  },
   "peerDependencies": {
     "react": "^0.13.1",
     "d3": "^3.3.0",
