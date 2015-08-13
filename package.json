@@ -3,12 +3,14 @@
   "author": "Amey Sakhadeo",
   "version": "0.1.0",
   "description": "A set of d3 based visualization components built for React",
-  "main": "src/index.js",
+  "main": "public/diffract.min.js",
   "files": [
     "build",
     "package.json"
   ],
-  "scripts": {},
+  "scripts": {
+    "start": "webpack src/index.js public/diffract.min.js"
+  },
   "keywords": [
     "react",
     "react-component",
