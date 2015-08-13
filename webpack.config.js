@@ -1,12 +1,9 @@
 var webpack = require('webpack');
 
 module.exports = {
-  entry: './src/index.js',
-
   output: {
     library: 'Diffract',
     libraryTarget: 'umd',
-    path: './public/diffract.min.js'
   },
 
   externals: [
@@ -16,6 +13,14 @@ module.exports = {
         commonjs2: "react",
         commonjs: "react",
         amd: "react"
+      }
+    },
+    {
+      "react/addons": {
+        root: "React/addons",
+        commonjs2: "react/addons",
+        commonjs: "react/addons",
+        amd: "react/addons"
       }
     }
   ],
