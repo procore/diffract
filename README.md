@@ -1,54 +1,54 @@
-# diffract
+# DIFFRACT
 
 
-A set of d3 based visualization components with **cool animations** built for React
+A SET OF D3 BASED VISUALIZATION COMPONENTS WITH **COOL ANIMATIONS** BUILT FOR REACT
 
-Installation
+INSTALLATION
 ---
-Diffract is available via npm and can be used along with [browserify](http://browserify.org/)
+DIFFRACT IS AVAILABLE VIA NPM AND CAN BE USED ALONG WITH [BROWSERIFY](HTTP://BROWSERIFY.ORG/)
 
-```shell
-npm install diffract
+```SHELL
+NPM INSTALL DIFFRACT
 
 ```
 
-## Usage
+## USAGE
 
-After installing diffract via NPM, you may use the components in your code as follows:
+AFTER INSTALLING DIFFRACT VIA NPM, YOU MAY USE THE COMPONENTS IN YOUR CODE AS FOLLOWS:
 
-```js
-/** DeathStar.jsx */
+```JS
+/** DEATHSTAR.JSX */
 
-var React = require('react'),
-  diffract = require('diffract'),
-  Donut = diffract.Donut,
-  myarr, colorFn;
+VAR REACT = REQUIRE('REACT'),
+  DIFFRACT = REQUIRE('DIFFRACT'),
+  DONUT = DIFFRACT.DONUT,
+  MYARR, COLORFN;
 
-/* Define myarr and colorFn here */
+/* DEFINE MYARR AND COLORFN HERE */
 
-// ...And use it in your code
-var DeathStar = React.createClass({
+// ...AND USE IT IN YOUR CODE
+VAR DEATHSTAR = REACT.CREATECLASS({
 
-  render: function() {
-    return (
-      <Donut title="42" subtitle="answer to everything"
-       values={myarr} segmentColor={colorFn} />
+  RENDER: FUNCTION() {
+    RETURN (
+      <DONUT TITLE="42" SUBTITLE="ANSWER TO EVERYTHING"
+       VALUES={MYARR} SEGMENTCOLOR={COLORFN} />
     );
   }
 
 });
 
-module.exports = DeathStar;
+MODULE.EXPORTS = DEATHSTAR;
 
 
 ```
 
-## Demo
-### Donut
-![Donut](https://raw.github.com/ameyms/diffract/master/etc/donut.gif)
+## DEMO
+### DONUT
+![DONUT](HTTPS://RAW.GITHUB.COM/AMEYMS/DIFFRACT/MASTER/ETC/DONUT.GIF)
 
-### Bar Graph
-![Bar Graph](https://raw.github.com/ameyms/diffract/master/etc/bar_graph_1.gif)
+### BAR GRAPH
+![BAR GRAPH](HTTPS://RAW.GITHUB.COM/AMEYMS/DIFFRACT/MASTER/ETC/BAR_GRAPH_1.GIF)
 
 
 
@@ -56,4 +56,4 @@ module.exports = DeathStar;
 ----
 
 
-  License: MIT
+  LICENSE: MIT
