@@ -1,7 +1,7 @@
-# diffract Homepage
-A set of d3 based visualization components with **cool animations** built for React
+# DIFFRACT HOMEPAGE
+A SET OF D3 BASED VISUALIZATION COMPONENTS WITH **COOL ANIMATIONS** BUILT FOR REACT
 
-> :warning: You are currently viewing the `gh-pages` branch of this project.
+> :WARNING: YOU ARE CURRENTLY VIEWING THE `GH-PAGES` BRANCH OF THIS PROJECT.
 >
-> Did you want to look at the 
-> [master](https://github.com/ameyms/diffract/tree/master/) branch instead?
+> DID YOU WANT TO LOOK AT THE 
+> [MASTER](HTTPS://GITHUB.COM/AMEYMS/DIFFRACT/TREE/MASTER/) BRANCH INSTEAD?
