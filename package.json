@@ -4,10 +4,6 @@
   "version": "0.1.0",
   "description": "A set of d3 based visualization components built for React",
   "main": "public/diffract.min.js",
-  "files": [
-    "build",
-    "package.json"
-  ],
   "scripts": {
     "start": "webpack --config ./webpack.config.js --progress --colors -p"
   },
