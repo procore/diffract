@@ -5,7 +5,7 @@
   "description": "A set of d3 based visualization components built for React",
   "main": "public/diffract.min.js",
   "scripts": {
-    "start": "webpack --config ./webpack.config.js --progress --colors -p"
+    "build": "gulp build_js"
   },
   "keywords": [
     "react",
@@ -26,7 +26,7 @@
     "d3": "^3.5.6"
   },
   "peerDependencies": {
-    "react": "^0.13.1",
+    "react": "^0.14.1",
     "d3": "^3.3.0",
     "diffract": "^0.1.0"
   },
@@ -49,6 +49,7 @@
     "grunt-eslint": "^12.0.0",
     "grunt-react": "^0.12.0",
     "grunt-shell": "^1.1.2",
+    "gulp": "^3.9.0",
     "gulp-rename": "^1.2.2",
     "gulp-webpack": "^1.5.0",
     "jshint-stylish": "^1.0.1",
