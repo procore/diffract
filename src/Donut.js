@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react/addons';
+import React, {Component, PropTypes} from 'react';
 import d3 from 'd3';
 
 let ReactTransitionGroup = React.addons.TransitionGroup;
