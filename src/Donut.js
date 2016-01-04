@@ -1,8 +1,6 @@
 import React, {Component, PropTypes} from 'react';
+import ReactTransitionGroup from 'react-addons-transition-group';
 import d3 from 'd3';
-
-let ReactTransitionGroup = React.addons.TransitionGroup;
-
 
 let pieGeneratorFn = d3.layout.pie().sort(null).value(d => d);
 
