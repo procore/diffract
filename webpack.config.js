@@ -14,14 +14,6 @@ module.exports = {
         commonjs: "react",
         amd: "react"
       }
-    },
-    {
-      "react/addons": {
-        root: "React/addons",
-        commonjs2: "react/addons",
-        commonjs: "react/addons",
-        amd: "react/addons"
-      }
     }
   ],
 
