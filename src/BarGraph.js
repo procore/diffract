@@ -1,9 +1,8 @@
-import React, {Component, PropTypes} from 'react/addons';
+import React, {Component, PropTypes} from 'react';
+import ReactTransitionGroup from 'react-addons-transition-group';
 import Axis from './Axis';
 import d3 from 'd3';
 import {TRANSITION_DURATION} from './constants';
-
-let ReactTransitionGroup = React.addons.TransitionGroup;
 
 class Bar extends Component {
 
