@@ -1,5 +1,4 @@
 import React, {Component, PropTypes} from 'react';
-import ReactTransitionGroup from 'react-addons-transition-group';
 import d3 from 'd3';
 
 let pieGeneratorFn = d3.layout.pie().sort(null).value(d => d);
@@ -174,11 +173,7 @@ export default class Donut extends Component {
         return (
             <svg className="donut" width={width} height={height}>
                 <g transform={centerTransform}>
-                    <ReactTransitionGroup component="g" className="slices"
-                        transitionAppear={true} transitionEnter={true}
-                        transitionLeave={true}>
-                        { slices }
-                    </ReactTransitionGroup>
+                    { slices }
                     <g className="labels">
                         <text className="donut-title" textAnchor="middle"
                             x={0} y={0} fontSize={'20'}>

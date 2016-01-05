@@ -1,4 +1,7 @@
 {
+  "blacklist": [
+    "useStrict"
+  ],
   "stage": 2,
   "loose": ["es6.modules", "es6.classes"],
   "ignore": [
