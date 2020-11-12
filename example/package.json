@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^0.13.1",
     "d3": "^3.3.0",
-    "diffract": "^0.1.0"
+    "diffract": "^0.3.2"
   },
   "author": "Amey Sakhadeo",
   "license": "ISC"
